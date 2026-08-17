@@ -11,10 +11,7 @@ public class PrintSequence {
         for(int i = 1 ; i<=n  ; i++){
             System.out.println(i+" ");
             System.out.println(n-i+1 + " ");
-            
-            
         }
-        
         
         
         sc.close();
