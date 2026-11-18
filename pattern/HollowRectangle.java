@@ -19,16 +19,13 @@ public class HollowRectangle {
         int width = sc.nextInt();
         for(int i=1; i<=row; i++){
             for(int j=1; j<=width; j++){
-                if(i==1 || i==row){
+                if(i==1 || i==row || j==1 || j==width){
                     System.out.print("* ");
                 }
                 else{
-                    if(j==1 || j==width){
-                        System.out.print("* ");
-                    }
-                    else{
+                    
                         System.out.print("  ");
-                    }
+                    
                 }
             }
             System.out.println();
